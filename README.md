@@ -12,4 +12,11 @@ This is one of the projects from Colte Steel (The Web Developer Bootcamp 2022) m
 
 ## Lessons Learned:
 
-Learned all about using API's, Axios and Fetch
+- Learned all about APIs
+- Using Axios to get date from APISs
+- Styling using SASS
+
+## Issues Encountered:
+
+Issue 1: Had a problem with the background image not initialing on github page.
+Resolved: Fixed by changing the relative path.
