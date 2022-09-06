@@ -4,8 +4,9 @@
 .logo {
     font-family: u.$font;
     font-weight: 700;
-    font-size: xx-large;
+    font-size: 2.5rem;
     color: red;
+    cursor: pointer;
 }
 
 .log-in {
@@ -30,8 +31,15 @@
     h3 {
         font-size: 1.2rem;
     }
+    input {
+        padding: 7px 17px;
+        color: black;
+        outline: none;
+        border: none;
+        font-family: u.$font;
+        font-size: 2rem;
+    }
 }
-
 .search {
     padding: 7px 17px;
     background-color: red;
