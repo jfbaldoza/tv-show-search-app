@@ -1,0 +1,80 @@
+@use '../util' as u;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+
+.main {
+    text-align: center;
+    padding: 1rem;
+    margin: 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .grid {
+//     display: grid;
+//     grid-template-columns: 1fr;
+//     gap: 40px;
+//     grid-template-rows: auto auto;
+//     max-width: 1000px;
+//     margin-inline: auto;
+
+//     @include u.breakpoint(large) {
+//         grid-template-columns: 2fr 1fr;
+//         grid-template-rows: auto;
+//     }
+
+//     &__main, &__sidebar {
+//         padding: 40px;
+//     }
+
+//     &__main {
+//         background-color: rgb(13, 13, 161);
+
+//         @include u.breakpoint(medium) {
+//             background-color: green;
+//         }
+
+//         @include u.breakpoint(large){
+//             background-color: orange;
+//         }
+//     }
+
+//     &__sidebar {
+
+
+//        @include u.breakpoint-down(medium) {
+//         text-align: center;
+//        }
+
+//        @include u.breakpoint-down(small)
+//     }
+
+//     &__widget {
+//         background-color: rgb(148, 4, 148);
+//         padding: u.rem(16);
+
+//         &--green {
+//             background-color: green;
+//         }
+//     }
+// }

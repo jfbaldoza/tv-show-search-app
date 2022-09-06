@@ -5,7 +5,7 @@ This is one of the projects from Colte Steel (The Web Developer Bootcamp 2022) m
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, Tailwind and JavaScript
+**Tech used:** HTML, SASS, Tailwind and JavaScript
 
 ## Lessons Learned:
 

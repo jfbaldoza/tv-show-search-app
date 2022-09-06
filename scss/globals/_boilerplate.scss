@@ -1,0 +1,30 @@
+@use '../util' as u;
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: u.$font;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.background {
+    background:
+    linear-gradient(50deg,rgba(0,0,0,.8) 0,transparent 90%,rgba(0,0,0,.8)),
+    url(/img/bg-show.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
