@@ -18,5 +18,5 @@ This is one of the projects from Colte Steel (The Web Developer Bootcamp 2022) m
 
 ## Issues Encountered:
 
-Issue 1: Had a problem with the background image not initialing on github page.
-Resolved: Fixed by changing the relative path.
+**Issue 1:** Had a problem with the background image not initialing on github page.
+**Resolved:** Fixed by changing the relative path.
